@@ -1,0 +1,21 @@
+FileCommentHeader	DateTime	SerialNumber	Comment																																										
+FileCommentData	20191113_103412	24																																											
+EquipHeader	Generic	InstrumentIdString																																											
+EquipData	aux power supply 	Angilent 3320																																											
+EquipData	daq	PXI-6259																																											
+EquipData	daq	PXI-6259																																											
+EquipData	sg	PXI-5412																																											
+EquipData	scope	PXI-5114																																											
+EquipData	shunt	IbFsv 1.000E+0, IbFsi 1.000E-8																																											
+EquipData	shunt	IbatFsv 1.500E-2, IbatFsi 1.000E-6																																											
+EquipData	shunt	Load_VregDFsv -1.000E+0, Load_VregDFsi 1.920E-4																																											
+EquipData	shunt	Load_VregAFsv -1.000E+0, Load_VregAFsi 1.000E-5																																											
+UutHeader	UutModel	Version	software  version 1	software   version 2  																																									
+UutData	MC05	C	ASIC Test  V0.10.0.1	build  2097																																									
+TestSettingsHeader	DoTest	TestName	Description	Temp	SlewTime	SpecMin1	SpecMax1	SpecMin2	SpecMax2	SpecMin3	SpecMax3	SpecMin4	SpecMax4	Units	Type	VinIc	IcDwell	PlotStart	PlotStop	PlotStep	PlotDwell	BatteryImp	LeadImp	SChamber	Gain	SPolarity	AS	VS	Period	Times	PChamber	PPolarity	Aamp	Vamp	PW	RchgTime	Rate	Freq	VinEc	EcDwell	XtraLevelA	XtraLevelB	XtraLevelC	XtraLevelD	Comment
+TestSettingsData	yes	battery load impedance test	nom line,20k load	22.000000E+0	0.000000E+0	-40.000000E+0	40.000000E+0	Na	Na	Na	Na	Na	Na	pct	pct change	2.800000E+0	500.000000E-3	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	200.000000E+0	0.000000E+0		0.000000E+0		0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0			0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	500.000000E-3	20.000000E+3	0.000000E+0	0.000000E+0	0.000000E+0	Battery
+TestHeader	Result1	Status1	Result2	Status2	Result3	Status3	Result4	Status4	TestArrayIndex	ElapsedTime																																			
+TestData	23.845220E+0	pass	24.769044E+3	pass	Na	Na	Na	Na	0	5																																			
+TestArrayHeader	Vbat	Ibat	Vref	Ib	VregD	VregA	Vha	Vhv	Cofb	Por	ANA_Test1	ANA_Test2	Temp	Setting	I_Rk_P	Rk																													
+TestArrayData	2.777677E+0	8.048830E-6	621.726975E-3	1.184799E-12	1.995256E+0	2.107332E+0	5.548219E+0	5.558270E+0	-223.146607E-6	2.780339E+0	2.779103E+0	2.798177E+0	37.000000E+0	20.000000E+3	112.970716E-6	24.769044E+3																													
+																																													

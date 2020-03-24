@@ -1,0 +1,21 @@
+FileCommentHeader	DateTime	SerialNumber	Comment																																										
+FileCommentData	20191112_170413	16																																											
+EquipHeader	Generic	InstrumentIdString																																											
+EquipData	aux power supply 	Angilent 3320																																											
+EquipData	daq	PXI-6259																																											
+EquipData	daq	PXI-6259																																											
+EquipData	sg	PXI-5412																																											
+EquipData	scope	PXI-5114																																											
+EquipData	shunt	IbFsv 1.000E+0, IbFsi 1.000E-8																																											
+EquipData	shunt	IbatFsv 1.500E-2, IbatFsi 1.000E-6																																											
+EquipData	shunt	Load_VregDFsv -1.000E+0, Load_VregDFsi 1.920E-4																																											
+EquipData	shunt	Load_VregAFsv -1.000E+0, Load_VregAFsi 1.000E-5																																											
+UutHeader	UutModel	Version	software  version 1	software   version 2  																																									
+UutData	MC05	C	ASIC Test  V0.10.0.1	build  2097																																									
+TestSettingsHeader	DoTest	TestName	Description	Temp	SlewTime	SpecMin1	SpecMax1	SpecMin2	SpecMax2	SpecMin3	SpecMax3	SpecMin4	SpecMax4	Units	Type	VinIc	IcDwell	PlotStart	PlotStop	PlotStep	PlotDwell	BatteryImp	LeadImp	SChamber	Gain	SPolarity	AS	VS	Period	Times	PChamber	PPolarity	Aamp	Vamp	PW	RchgTime	Rate	Freq	VinEc	EcDwell	XtraLevelA	XtraLevelB	XtraLevelC	XtraLevelD	Comment
+TestSettingsData	yes	ant send vpp test	nom line	22.000000E+0	0.000000E+0	4.200000E+0	6.160000E+0	Na	Na	Na	Na	Na	Na	pct	pct change	2.800000E+0	500.000000E-3	0.000000E+0	0.000000E+0	0.000000E+0	2.000000E+0	0.000000E+0	0.000000E+0		0.000000E+0		0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0			0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	500.000000E-3	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	Ant
+TestHeader	Result1	Status1	Result2	Status2	Result3	Status3	Result4	Status4	TestArrayIndex	ElapsedTime																																			
+TestData	5.754496E+0	pass	Na	Na	Na	Na	Na	Na	0	33																																			
+TestArrayHeader	Vbat	Ibat	Vref	Ib	VregD	VregA	Vha	Vhv	Cofb	Por	ANA_Test1	ANA_Test2	Temp	Vpp																															
+TestArrayData	2.777447E+0	5.060817E-6	618.729035E-3	-10.024418E-12	2.002764E+0	2.100501E+0	5.714897E+0	5.721934E+0	-302.429756E-6	2.780137E+0	2.778901E+0	1.747974E-3	37.000000E+0	5.754496E+0																															
+																																													

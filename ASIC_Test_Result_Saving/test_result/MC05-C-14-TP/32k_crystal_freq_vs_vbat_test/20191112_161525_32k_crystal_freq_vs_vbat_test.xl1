@@ -1,0 +1,20 @@
+FileCommentHeader	DateTime	SerialNumber	Comment																																										
+FileCommentData	20191112_161525	14																																											
+EquipHeader	Generic	InstrumentIdString																																											
+EquipData	aux power supply 	Angilent 3320																																											
+EquipData	daq	PXI-6259																																											
+EquipData	daq	PXI-6259																																											
+EquipData	sg	PXI-5412																																											
+EquipData	scope	PXI-5114																																											
+EquipData	shunt	"IbFsv 1.000E+0, IbFsi 1.000E-8"																																											
+EquipData	shunt	"IbatFsv 1.500E-2, IbatFsi 1.000E-6"																																											
+EquipData	shunt	"Load_VregDFsv -1.000E+0, Load_VregDFsi 1.920E-4"																																											
+EquipData	shunt	"Load_VregAFsv -1.000E+0, Load_VregAFsi 1.000E-5"																																											
+UutHeader	UutModel	Version	software  version 1	software   version 2  																																									
+UutData	MC05	C	ASIC Test  V0.10.0.1	build  2097																																									
+TestSettingsHeader	DoTest	TestName	Description	Temp	SlewTime	SpecMin1	SpecMax1	SpecMin2	SpecMax2	SpecMin3	SpecMax3	SpecMin4	SpecMax4	Units	Type	VinIc	IcDwell	PlotStart	PlotStop	PlotStep	PlotDwell	BatteryImp	LeadImp	SChamber	Gain	SPolarity	AS	VS	Period	Times	PChamber	PPolarity	Aamp	Vamp	PW	RchgTime	Rate	Freq	VinEc	EcDwell	XtraLevelA	XtraLevelB	XtraLevelC	XtraLevelD	Comment
+TestSettingsData	yes	32k crystal freq vs vbat test	nom line	2.20E+01	0.00E+00	3.24E+04	3.31E+04	Na	Na	Na	Na	Na	Na	hz	absolute	2.80E+00	5.00E-01	2.80E+00	2.80E+00	1.00E-01	1.00E+00	0.00E+00	0.00E+00		0.00E+00		0.00E+00	0.00E+00	0.00E+00	0.00E+00			0.00E+00	0.00E+00	0.00E+00	0.00E+00	0.00E+00	0.00E+00	0.00E+00	5.00E-01	0.00E+00	0.00E+00	0.00E+00	0.00E+00	32kCrystal
+TestHeader	Result1	Status1	Result2	Status2	Result3	Status3	Result4	Status4	TestArrayIndex	PlotX1	PlotY1	PLOTLowIndex1	PLOTScale1	ElapsedTime																															
+TestData	3.28E+04	pass	Na	Na	Na	Na	Na	Na	0	Vbat	Frequency	0	XlinYlin	1																															
+TestArrayHeader	Vbat	Ibat	Vref	Ib	VregD	VregA	Vha	Vhv	Cofb	Por	ANA_Test1	ANA_Test2	Temp	Setting	Frequency																														
+TestArrayData	2.78E+00	7.79E-06	6.18E-01	-1.02E-11	2.00E+00	2.10E+00	5.73E+00	5.73E+00	-3.06E-04	2.78E+00	2.78E+00	1.75E-03	3.70E+01	2.80E+00	3.28E+04																														

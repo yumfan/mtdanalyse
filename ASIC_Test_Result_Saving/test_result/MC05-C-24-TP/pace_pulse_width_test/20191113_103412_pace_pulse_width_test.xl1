@@ -1,0 +1,28 @@
+FileCommentHeader	DateTime	SerialNumber	Comment																																										
+FileCommentData	20191113_103412	24																																											
+EquipHeader	Generic	InstrumentIdString																																											
+EquipData	aux power supply 	Angilent 3320																																											
+EquipData	daq	PXI-6259																																											
+EquipData	daq	PXI-6259																																											
+EquipData	sg	PXI-5412																																											
+EquipData	scope	PXI-5114																																											
+EquipData	shunt	IbFsv 1.000E+0, IbFsi 1.000E-8																																											
+EquipData	shunt	IbatFsv 1.500E-2, IbatFsi 1.000E-6																																											
+EquipData	shunt	Load_VregDFsv -1.000E+0, Load_VregDFsi 1.920E-4																																											
+EquipData	shunt	Load_VregAFsv -1.000E+0, Load_VregAFsi 1.000E-5																																											
+UutHeader	UutModel	Version	software  version 1	software   version 2  																																									
+UutData	MC05	C	ASIC Test  V0.10.0.1	build  2097																																									
+TestSettingsHeader	DoTest	TestName	Description	Temp	SlewTime	SpecMin1	SpecMax1	SpecMin2	SpecMax2	SpecMin3	SpecMax3	SpecMin4	SpecMax4	Units	Type	VinIc	IcDwell	PlotStart	PlotStop	PlotStep	PlotDwell	BatteryImp	LeadImp	SChamber	Gain	SPolarity	AS	VS	Period	Times	PChamber	PPolarity	Aamp	Vamp	PW	RchgTime	Rate	Freq	VinEc	EcDwell	XtraLevelA	XtraLevelB	XtraLevelC	XtraLevelD	Comment
+TestSettingsData	yes	pace pulse width test	nom line,vp,bip,pw 400us	22.000000E+0	0.000000E+0	-5.000000E+0	5.000000E+0	Na	Na	Na	Na	Na	Na	pct	pct change	2.800000E+0	500.000000E-3	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	200.000000E+0	500.000000E+0		0.000000E+0		0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	v	bip	0.000000E+0	5.000000E+0	400.000000E-6	31.200000E-3	70.000000E+0	0.000000E+0	0.000000E+0	500.000000E-3	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	Pace
+TestHeader	Result1	Status1	Result2	Status2	Result3	Status3	Result4	Status4	TestArrayIndex	ElapsedTime																																			
+TestData	809.139859E-3	pass	403.236559E-6	pass	Na	Na	Na	Na	0	16																																			
+TestArrayHeader	Vbat	Ibat	Vref	Ib	VregD	VregA	Vha	Vhv	Cofb	Por	ANA_Test1	ANA_Test2	Temp	Setting	Pulse Width	Tele Handshake																													
+TestArrayData	2.775099E+0	12.396187E-6	621.637379E-3	-10.266134E-12	1.995439E+0	2.107554E+0	7.809435E+0	4.147139E+0	-264.721911E-6	2.777749E+0	2.776496E+0	1.783426E-3	37.000000E+0	400.000000E-6	403.236559E-6	0.000000E+0																													
+																																													
+TestSettingsHeader	DoTest	TestName	Description	Temp	SlewTime	SpecMin1	SpecMax1	SpecMin2	SpecMax2	SpecMin3	SpecMax3	SpecMin4	SpecMax4	Units	Type	VinIc	IcDwell	PlotStart	PlotStop	PlotStep	PlotDwell	BatteryImp	LeadImp	SChamber	Gain	SPolarity	AS	VS	Period	Times	PChamber	PPolarity	Aamp	Vamp	PW	RchgTime	Rate	Freq	VinEc	EcDwell	XtraLevelA	XtraLevelB	XtraLevelC	XtraLevelD	Comment
+TestSettingsData	yes	pace pulse width test	nom line,ap,bip,pw 400us	22.000000E+0	0.000000E+0	-5.000000E+0	5.000000E+0	Na	Na	Na	Na	Na	Na	pct	pct change	2.800000E+0	500.000000E-3	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	200.000000E+0	500.000000E+0		0.000000E+0		0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	a	bip	5.000000E+0	0.000000E+0	400.000000E-6	31.200000E-3	70.000000E+0	0.000000E+0	0.000000E+0	500.000000E-3	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	Pace
+TestHeader	Result1	Status1	Result2	Status2	Result3	Status3	Result4	Status4	TestArrayIndex	ElapsedTime																																			
+TestData	787.364427E-3	pass	403.149458E-6	pass	Na	Na	Na	Na	0	16																																			
+TestArrayHeader	Vbat	Ibat	Vref	Ib	VregD	VregA	Vha	Vhv	Cofb	Por	ANA_Test1	ANA_Test2	Temp	Setting	Pulse Width	Tele Handshake																													
+TestArrayData	2.775084E+0	12.424951E-6	621.655105E-3	-10.014749E-12	1.995451E+0	2.107516E+0	4.142599E+0	4.172764E+0	-253.764078E-6	2.777756E+0	2.776520E+0	1.758932E-3	37.000000E+0	400.000000E-6	403.149458E-6	0.000000E+0																													
+																																													

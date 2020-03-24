@@ -1,0 +1,35 @@
+FileCommentHeader	DateTime	SerialNumber	Comment																																										
+FileCommentData	20191112_161525	14																																											
+EquipHeader	Generic	InstrumentIdString																																											
+EquipData	aux power supply 	Angilent 3320																																											
+EquipData	daq	PXI-6259																																											
+EquipData	daq	PXI-6259																																											
+EquipData	sg	PXI-5412																																											
+EquipData	scope	PXI-5114																																											
+EquipData	shunt	IbFsv 1.000E+0, IbFsi 1.000E-8																																											
+EquipData	shunt	IbatFsv 1.500E-2, IbatFsi 1.000E-6																																											
+EquipData	shunt	Load_VregDFsv -1.000E+0, Load_VregDFsi 1.920E-4																																											
+EquipData	shunt	Load_VregAFsv -1.000E+0, Load_VregAFsi 1.000E-5																																											
+UutHeader	UutModel	Version	software  version 1	software   version 2  																																									
+UutData	MC05	C	ASIC Test  V0.10.0.1	build  2097																																									
+TestSettingsHeader	DoTest	TestName	Description	Temp	SlewTime	SpecMin1	SpecMax1	SpecMin2	SpecMax2	SpecMin3	SpecMax3	SpecMin4	SpecMax4	Units	Type	VinIc	IcDwell	PlotStart	PlotStop	PlotStep	PlotDwell	BatteryImp	LeadImp	SChamber	Gain	SPolarity	AS	VS	Period	Times	PChamber	PPolarity	Aamp	Vamp	PW	RchgTime	Rate	Freq	VinEc	EcDwell	XtraLevelA	XtraLevelB	XtraLevelC	XtraLevelD	Comment
+TestSettingsData	yes	vregd vs vbat test	min to max line	22.000000E+0	0.000000E+0	-2.000000E+0	2.000000E+0	0.000000E+0	150.000000E-3	Na	Na	Na	Na	pct	pct change	2.800000E+0	500.000000E-3	1.800000E+0	3.200000E+0	100.000000E-3	200.000000E-3	0.000000E+0	0.000000E+0		0.000000E+0		0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0			0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	500.000000E-3	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	BandGap
+TestHeader	Result1	Status1	Result2	Status2	Result3	Status3	Result4	Status4	TestArrayIndex	PlotX1	PlotY1	PLOTLowIndex1	PLOTScale1	ElapsedTime																															
+TestData	653.930771E-3	pass	92.916206E-3	pass	Na	Na	Na	Na	0	Vbat	VregD	0	XlinYlin	18																															
+TestArrayHeader	Vbat	Ibat	Vref	Ib	VregD	VregA	Vha	Vhv	Cofb	Por	ANA_Test1	ANA_Test2	Setting	Temp																															
+TestArrayData	3.175507E+0	8.020150E-6	619.546684E-3	-9.773032E-12	2.005162E+0	2.102227E+0	5.539971E+0	5.745688E+0	-329.824315E-6	3.178275E+0	3.177202E+0	1.975832E-3	3.200000E+0	37.000000E+0																															
+TestArrayData	3.087825E+0	4.830379E-6	619.334940E-3	-9.853604E-12	2.004754E+0	2.101756E+0	5.539853E+0	5.743958E+0	-307.264073E-6	3.090501E+0	3.089421E+0	1.936513E-3	3.100000E+0	37.000000E+0																															
+TestArrayData	2.988342E+0	4.721759E-6	619.070984E-3	-9.889056E-12	2.004165E+0	2.101103E+0	5.539748E+0	5.742876E+0	-299.206845E-6	2.991035E+0	2.989895E+0	1.901706E-3	3.000000E+0	37.000000E+0																															
+TestArrayData	2.888651E+0	4.649831E-6	618.800261E-3	-9.669900E-12	2.003558E+0	2.100495E+0	5.539618E+0	5.742036E+0	-296.306243E-6	2.891357E+0	2.890184E+0	1.837892E-3	2.900000E+0	37.000000E+0																															
+TestArrayData	2.788060E+0	4.699014E-6	618.539206E-3	-10.011526E-12	2.003047E+0	2.099873E+0	5.539518E+0	5.741284E+0	-358.185761E-6	2.790742E+0	2.789506E+0	1.789227E-3	2.800000E+0	37.000000E+0																															
+TestArrayData	2.689071E+0	4.556610E-6	618.264937E-3	-9.818153E-12	2.002427E+0	2.099258E+0	5.539401E+0	5.740616E+0	-269.556244E-6	2.691751E+0	2.690483E+0	1.736049E-3	2.700000E+0	37.000000E+0																															
+TestArrayData	2.588246E+0	4.627625E-6	617.980033E-3	-9.827821E-12	2.001755E+0	2.098483E+0	5.539280E+0	5.739999E+0	-284.381546E-6	2.590935E+0	2.589583E+0	1.671269E-3	2.600000E+0	37.000000E+0																															
+TestArrayData	2.489421E+0	4.472644E-6	617.635183E-3	-9.947068E-12	2.001038E+0	2.097713E+0	5.539179E+0	5.739443E+0	-299.851425E-6	2.492141E+0	2.490727E+0	1.623570E-3	2.500000E+0	37.000000E+0																															
+TestArrayData	2.389610E+0	4.436119E-6	617.311926E-3	-9.966406E-12	2.000281E+0	2.096886E+0	5.539052E+0	5.738904E+0	-310.809255E-6	2.392336E+0	2.390866E+0	1.582317E-3	2.400000E+0	37.000000E+0																															
+TestArrayData	2.289846E+0	4.394033E-6	616.985446E-3	-9.988966E-12	1.999497E+0	2.096016E+0	5.538937E+0	5.738377E+0	-260.854439E-6	2.292545E+0	2.291055E+0	1.531073E-3	2.300000E+0	37.000000E+0																															
+TestArrayData	2.190009E+0	4.364772E-6	616.596120E-3	-10.082430E-12	1.998622E+0	2.094671E+0	5.538810E+0	5.737875E+0	-298.562269E-6	2.192721E+0	2.191163E+0	1.482085E-3	2.200000E+0	37.000000E+0																															
+TestArrayData	2.090318E+0	4.280599E-6	616.119776E-3	-10.153333E-12	1.997402E+0	2.062390E+0	5.538736E+0	5.737410E+0	-300.496002E-6	2.093026E+0	61.826503E-3	356.973842E-6	2.100000E+0	37.000000E+0																															
+TestArrayData	1.992116E+0	3.486062E-6	615.159674E-3	-10.150110E-12	1.983290E+0	1.966944E+0	5.538628E+0	5.736952E+0	-302.107448E-6	1.994851E+0	-278.902648E-6	315.398542E-6	2.000000E+0	37.000000E+0																															
+TestArrayData	1.923101E+0	-34.257705E-9	613.887273E-3	-9.992189E-12	1.922478E+0	1.897710E+0	5.538488E+0	5.736532E+0	-261.499014E-6	1.925800E+0	-291.149635E-6	325.711795E-6	1.900000E+0	37.000000E+0																															
+TestArrayData	1.848059E+0	-33.012544E-9	612.276791E-3	-9.963183E-12	1.847580E+0	1.822428E+0	5.538344E+0	5.736094E+0	-298.562268E-6	1.850780E+0	-296.628551E-6	306.374446E-6	1.800000E+0	37.000000E+0																															
+																																													
