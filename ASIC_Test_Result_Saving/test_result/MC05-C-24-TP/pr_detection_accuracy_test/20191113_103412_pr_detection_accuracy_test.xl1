@@ -1,0 +1,32 @@
+FileCommentHeader	DateTime	SerialNumber	Comment																																										
+FileCommentData	20191113_103412	24																																											
+EquipHeader	Generic	InstrumentIdString																																											
+EquipData	aux power supply 	Angilent 3320																																											
+EquipData	daq	PXI-6259																																											
+EquipData	daq	PXI-6259																																											
+EquipData	sg	PXI-5412																																											
+EquipData	scope	PXI-5114																																											
+EquipData	shunt	IbFsv 1.000E+0, IbFsi 1.000E-8																																											
+EquipData	shunt	IbatFsv 1.500E-2, IbatFsi 1.000E-6																																											
+EquipData	shunt	Load_VregDFsv -1.000E+0, Load_VregDFsi 1.920E-4																																											
+EquipData	shunt	Load_VregAFsv -1.000E+0, Load_VregAFsi 1.000E-5																																											
+UutHeader	UutModel	Version	software  version 1	software   version 2  																																									
+UutData	MC05	C	ASIC Test  V0.10.0.1	build  2097																																									
+TestSettingsHeader	DoTest	TestName	Description	Temp	SlewTime	SpecMin1	SpecMax1	SpecMin2	SpecMax2	SpecMin3	SpecMax3	SpecMin4	SpecMax4	Units	Type	VinIc	IcDwell	PlotStart	PlotStop	PlotStep	PlotDwell	BatteryImp	LeadImp	SChamber	Gain	SPolarity	AS	VS	Period	Times	PChamber	PPolarity	Aamp	Vamp	PW	RchgTime	Rate	Freq	VinEc	EcDwell	XtraLevelA	XtraLevelB	XtraLevelC	XtraLevelD	Comment
+TestSettingsData	yes	pr detection accuracy test	nom line,as 1mv,t2r	22.000000E+0	0.000000E+0	-50.000000E+0	50.000000E+0	-5.000000E+0	5.000000E+0	Na	Na	Na	Na	pct	pct change	2.800000E+0	500.000000E-3	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	a	0.000000E+0	t2r	1.000000E-3	0.000000E+0	0.000000E+0	0.000000E+0			0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	500.000000E-3	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	Sense
+TestHeader	Result1	Status1	Result2	Status2	Result3	Status3	Result4	Status4	TestArrayIndex	ElapsedTime																																			
+TestData	-6.680890E+0	pass	-1.375978E+0	pass	Na	Na	Na	Na	0	36																																			
+TestArrayHeader	Vbat	Ibat	Vref	Ib	VregD	VregA	Vha	Vhv	Cofb	Por	ANA_Test1	ANA_Test2	Temp	Setting	Pout_100	Pout_max	Gain_sns	Code	Vadc																										
+TestArrayData	2.777579E+0	24.362894E-6	621.756304E-3	-7.349418E-12	1.995296E+0	2.107410E+0	5.552402E+0	5.558058E+0	-227.336365E-6	2.780257E+0	2.779014E+0	635.557403E-3	37.000000E+0	1.000000E-3	730.178201E-3	731.467361E-3	109.711057E+0	149.000000E+0	723.763197E-3																										
+TestArrayData	2.777572E+0	24.365674E-6	621.730843E-3	-7.239839E-12	1.995275E+0	2.107355E+0	5.552210E+0	5.558039E+0	-314.999013E-6	2.780246E+0	2.779015E+0	635.927069E-3	37.000000E+0	1.000000E-3	729.855911E-3	731.145071E-3	109.414228E+0	149.000000E+0	723.733559E-3																										
+TestArrayData	2.777579E+0	24.382692E-6	621.709250E-3	-7.442882E-12	1.995235E+0	2.107320E+0	5.552034E+0	5.558058E+0	-246.029137E-6	2.780246E+0	2.779003E+0	634.986305E-3	37.000000E+0	1.000000E-3	728.566751E-3	730.500491E-3	108.791241E+0	149.000000E+0	723.708423E-3																										
+																																													
+TestSettingsHeader	DoTest	TestName	Description	Temp	SlewTime	SpecMin1	SpecMax1	SpecMin2	SpecMax2	SpecMin3	SpecMax3	SpecMin4	SpecMax4	Units	Type	VinIc	IcDwell	PlotStart	PlotStop	PlotStep	PlotDwell	BatteryImp	LeadImp	SChamber	Gain	SPolarity	AS	VS	Period	Times	PChamber	PPolarity	Aamp	Vamp	PW	RchgTime	Rate	Freq	VinEc	EcDwell	XtraLevelA	XtraLevelB	XtraLevelC	XtraLevelD	Comment
+TestSettingsData	yes	pr detection accuracy test	nom line,vs 2.8mv,t2r	22.000000E+0	0.000000E+0	-50.000000E+0	50.000000E+0	-5.000000E+0	5.000000E+0	Na	Na	Na	Na	pct	pct change	2.800000E+0	500.000000E-3	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	v	0.000000E+0	t2r	0.000000E+0	2.800000E-3	0.000000E+0	0.000000E+0			0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	500.000000E-3	0.000000E+0	0.000000E+0	0.000000E+0	0.000000E+0	Sense
+TestHeader	Result1	Status1	Result2	Status2	Result3	Status3	Result4	Status4	TestArrayIndex	ElapsedTime																																			
+TestData	-4.066053E+0	pass	-1.005062E+0	pass	Na	Na	Na	Na	0	36																																			
+TestArrayHeader	Vbat	Ibat	Vref	Ib	VregD	VregA	Vha	Vhv	Cofb	Por	ANA_Test1	ANA_Test2	Temp	Setting	Pout_100	Pout_max	Gain_sns	Code	Vadc																										
+TestArrayData	2.777584E+0	24.371900E-6	621.736644E-3	-7.330080E-12	1.995289E+0	2.107331E+0	5.549202E+0	5.558063E+0	-279.869498E-6	2.780240E+0	2.779016E+0	631.078217E-3	37.000000E+0	2.800000E-3	781.744617E-3	782.711487E-3	57.491015E+0	160.000000E+0	777.170805E-3																										
+TestArrayData	2.777591E+0	24.375013E-6	621.723753E-3	-7.249508E-12	1.995316E+0	2.107404E+0	5.549033E+0	5.558070E+0	-235.715884E-6	2.780244E+0	2.778997E+0	629.820964E-3	37.000000E+0	2.800000E-3	781.100036E-3	782.711487E-3	57.495620E+0	160.000000E+0	777.154691E-3																										
+TestArrayData	2.777578E+0	24.357290E-6	621.739867E-3	-7.339749E-12	1.995284E+0	2.107345E+0	5.548867E+0	5.558084E+0	-261.176726E-6	2.780236E+0	2.778995E+0	629.826766E-3	37.000000E+0	2.800000E-3	778.521715E-3	780.777746E-3	56.799243E+0	159.000000E+0	772.317491E-3																										
+																																													
